@@ -1,0 +1,10 @@
+.app-container {
+  height: 100vh;
+  padding: 40px 0px;
+}
+
+.pdf__wrapper {
+  width: 100%;
+  min-height: 430px;
+  overflow: hidden;
+}
