@@ -19,7 +19,7 @@ const App = () => {
     }
   };
 
-  const onArrowClick = () => {
+  const handleReset = () => {
     const element = agreementHtmlRef.current,
       bodyContainer = element.contentDocument.body.children[0];
     if (bodyContainer) {
@@ -74,7 +74,7 @@ const App = () => {
                       <button
                         type="button"
                         className="btn btn-warning"
-                        onClick={onArrowClick}
+                        onClick={handleReset}
                       >
                         scroll to top
                       </button>
